@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  background-color: #d9d9d9;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d9d9d9;
+}
+
+/** .card_container{
+    width: 100%;
+    display: flex;
+    margin-top: 25px;
+    gap: 10px;   
+}
+    .day {
+    width: 276px;
+    height: 271px;
+    display: flex;
+    justify-content: space-evenly;
+}
+    .card_container_2 {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;   
+}
