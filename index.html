@@ -4,19 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/photo_2024-09-27_20-27-49.jpg"
+    />
+    <title>Schedule</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <img src="" alt="logo" />
       <input class="search" type="text" id="searchInput" placeholder="" />
       <h1>The main task</h1>
     </header>
 
     <!-- Первая версия карточки -->
+    <main class="main">
+      <div class="card-container">
+        <div class="card-header">
+          <button class="color-btn"></button>
+          <input class="input" value="Тут повинен бути текст" />
+        </div>
+        <div class="card-content">
+          <div class="tasks-wrapper">
+            <div class="task-box">
+              <p class="task-text">Задача №1</p>
+              <div class="mini-del-btn"></div>
+            </div>
+          </div>
+          <div class="window-btns">
+            <button class="del-btn">+</button>
+            <input class="cloner-input" />
+            <button class="add-btn">-</button>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <!-- Футер -->
-    <footer>
+    <footer class="footer">
       <p>All rights reserved</p>
       <p>Розробники сайту</p>
       <ol>
@@ -30,19 +56,3 @@
     <script src="index.js"></script>
   </body>
 </html>
-
-<!-- <div class="card_container">
-        <div class="day">
-          <div class="header"> чорная шняга </div>
-          <div class="content"> все внутри </div>
-        </div>
-        <div class="day"></div>
-        <div class="day"></div>
-        <div class="day" class="top"></div>
-    </div>
-     <div class="card_container_2"> 
-        <div class="day""></div>
-        <div class="day""></div>
-        <div class="day""></div>
-     </div>
-      -->
