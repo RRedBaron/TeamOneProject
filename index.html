@@ -14,31 +14,29 @@
   <body>
     <header class="header">
       <img src="/assets/logo2.0.png" alt="logo" />
-      <input class="search" type="text" id="searchInput" placeholder="" />
+      <div class="container">
+        <input type="text" placeholder="Search..." class="search" />
+      </div>
       <h1>The main task</h1>
     </header>
     <!-- Первая версия карточки -->
     <main class="main">
-      <div class="card-container">
+      <div class="card-container" id="card-1">
         <div class="card-header">
           <button class="color-btn"></button>
-          <input class="input" value="Тут повинен бути текст" />
+          <input class="input" placeholder="Тут повинен бути текст" />
         </div>
         <div class="card-content">
-          <div class="tasks-wrapper">
-            <div class="task-box">
-              <p class="task-text">Задача №1</p>
-              <div class="mini-del-btn"></div>
-            </div>
-          </div>
+          <div class="tasks-wrapper"></div>
           <div class="window-btns">
             <button class="del-btn">-</button>
-            <input class="cloner-input" />
+            <input class="cloner-input" placeholder="Введіть задачу ..." />
             <button class="add-btn">+</button>
           </div>
         </div>
       </div>
-      <div class="card-container">
+
+      <div class="card-container" id="card-2">
         <div class="card-header">
           <button class="color-btn"></button>
           <input class="input" value="Тут повинен бути текст" />
@@ -57,7 +55,8 @@
           </div>
         </div>
       </div>
-      <div class="card-container">
+
+      <div class="card-container" id="card-3">
         <div class="card-header">
           <button class="color-btn"></button>
           <input class="input" value="Тут повинен бути текст" />
@@ -76,7 +75,8 @@
           </div>
         </div>
       </div>
-      <div class="card-container">
+
+      <div class="card-container" id="card-4">
         <div class="card-header">
           <button class="color-btn"></button>
           <input class="input" value="Тут повинен бути текст" />
@@ -95,8 +95,8 @@
           </div>
         </div>
       </div>
-    </div>
-      <div class="card-container">
+
+      <div class="card-container" id="card-5">
         <div class="card-header">
           <button class="color-btn"></button>
           <input class="input" value="Тут повинен бути текст" />
@@ -115,7 +115,8 @@
           </div>
         </div>
       </div>
-      <div class="card-container">
+
+      <div class="card-container" id="card-6">
         <div class="card-header">
           <button class="color-btn"></button>
           <input class="input" value="Тут повинен бути текст" />
@@ -134,7 +135,8 @@
           </div>
         </div>
       </div>
-      <div class="card-container">
+
+      <div class="card-container" id="card-7">
         <div class="card-header">
           <button class="color-btn"></button>
           <input class="input" value="Тут повинен бути текст" />
@@ -157,15 +159,15 @@
 
     <!-- Футер -->
     <footer class="footer">
-      <p >All rights reserved</p>
+      <p>All rights reserved</p>
       <p class="footer-right">Розробники сайту
-      <ul>
-        <li><a href="https://github.com/Stas-a11y">Stas-a11y</a></li>
-        <li><a href="https://github.com/teaquix">teaquix</a></li>
-        <li><a href="https://github.com/jdkcvk">jdkcvk</a></li>
-        <li><a href="https://github.com/marynka228">marynka228</a></li>
-      </ul>
-    </p>
+        <ul>
+          <li><a href="https://github.com/Stas-a11y">Stas-a11y</a></li>
+          <li><a href="https://github.com/teaquix">teaquix</a></li>
+          <li><a href="https://github.com/jdkcvk">jdkcvk</a></li>
+          <li><a href="https://github.com/marynka228">marynka228</a></li>
+        </ul>
+      </p>
     </footer>
 
     <script src="index.js"></script>
