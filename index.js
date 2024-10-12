@@ -1,6 +1,6 @@
 const addButtons = document.querySelectorAll(".add-btn");
 const deleteButtons = document.querySelectorAll(".del-btn");
-const searchInput = document.querySelector(".search");
+const searchInput = document.querySelector(".search-input");
 
 addButtons.forEach((button, index) => {
   button.addEventListener("click", () => {
