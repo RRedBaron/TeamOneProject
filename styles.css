@@ -20,6 +20,7 @@ body {
   align-items: center;
   background: linear-gradient(to right, #00ffff, #66ffcc);
   padding: 0px 50px;
+  height: 70px;
 }
 
 .main {

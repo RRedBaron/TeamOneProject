@@ -1,6 +1,32 @@
 const addButtons = document.querySelectorAll(".add-btn");
 const deleteButtons = document.querySelectorAll(".del-btn");
 const searchInput = document.querySelector(".search-input");
+const searchIcon = document.querySelector(".search-icon")
+const contentItems = document.querySelectorAll(".card-container")
+
+//searchIcon.addEventListener("click", () => {
+//  searchInput.addEventListener('input', (ev) => {
+//  const value = ev.target.value.trim()
+//  const card_content = document.querySelectorAll('.card-content')
+//  const searchRegExp = new RegExp(value, 'gi')
+//  if (value === '') {
+//    contentItems.forEach((el) => {
+//        el.classList.remove('hide')
+//    })
+//    return
+//}
+
+//contentItems.forEach((el) => {
+//    const card_content = document.querySelector('.card-content')
+//    const elementText = cardContent ? cardContent.textContent : '';
+//    const isContainsSearchRequest = searchRegExp.test(elementText)
+//    if (!isContainsSearchRequest) {
+//        el.classList.add('hide')
+//    } else {
+//        el.classList.remove('hide')
+//    }
+//})
+//})});
 
 addButtons.forEach((button, index) => {
   button.addEventListener("click", () => {
