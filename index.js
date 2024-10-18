@@ -1,8 +1,8 @@
 const addButtons = document.querySelectorAll(".add-btn");
 const deleteButtons = document.querySelectorAll(".del-btn");
 const searchInput = document.querySelector(".search-input");
-const searchIcon = document.querySelector(".search-icon")
-const contentItems = document.querySelectorAll(".card-container")
+const searchIcon = document.querySelector(".search-icon");
+const contentItems = document.querySelectorAll(".card-container");
 
 //searchIcon.addEventListener("click", () => {
 //  searchInput.addEventListener('input', (ev) => {
@@ -74,7 +74,7 @@ searchInput.addEventListener("input", () => {
     const taskInput = cardContainer.querySelector(".input").value.toLowerCase();
 
     if (taskInput.includes(searchValue)) {
-      cardContainer.style.display = "block";
+      cardContainer.style.display = "flex";
     } else {
       cardContainer.style.display = "none";
     }
